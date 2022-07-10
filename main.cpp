@@ -4,7 +4,43 @@
 #include <vector>
 #include <algorithm>
 #include <cstring>
+#include "BMP.h"
+#include <stdio.h>
 using namespace std;
+
+void print_image_key(vector<string> str)
+{
+    int bg_width = 550;
+    int bg_height = 600;
+
+    int width = 50;
+    int height = 50;
+
+    BMP bmp8(bg_width, bg_height, false);
+    //blue, green and red BGR and A(ambient) not RGB
+    int i = 0;
+    string s;
+    const char *c;
+    int j = 0;
+    for (vector<string>::iterator it = str.begin(); it != str.end(); ++it)
+    {
+        s = *it;
+        c = s.c_str();
+        
+        j++;
+        i = 0;
+        while (c[i] != '\0')
+        { 
+        if (c[i++] == '0')
+        {
+            int x_pos = bg_width - (50*i);
+            int y_pos = bg_height - (50*j);
+            bmp8.fill_region(x_pos, y_pos, width, height, 255, 255, 255, 0);
+        }
+        }
+    }
+    bmp8.write("immagine.bmp");
+}
 
 vector<int> control_words(vector<string> words_ins)
 {
@@ -76,7 +112,10 @@ vector<string> binary_convert(vector<int> integers)
 int main(int argc, char** argv)
 {
     if (argc != 13)
+    {
+        perror("Error: Wrong number of arguments");
         return (0);
+    }
     vector<int> index_of_words;
     vector<string> binary_of_index;
     vector<string> word_list(argv + 1, argv + argc);
@@ -89,5 +128,6 @@ int main(int argc, char** argv)
     /*for (int i = 0; i < binary_of_index.size(); i++)
         cout << binary_of_index[i] << "\n";
     cout << endl;*/
+    print_image_key(binary_of_index);
     return 0;
 }
