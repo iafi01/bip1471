@@ -18,5 +18,5 @@ I want to inspire the community to this change and create other opensource syste
 ==Example==
 <table>
 <tr><td>stick</td><td>stool</td><td>kitchen</td><td>knee</td><td>fade</td><td>butter</td><td>ten</td><td>vapor</td><td>various</td><td>once</td><td>mesh</td><td>menu </td></tr>
-<tr><td colspan="12"><img src="./immagine.bmp" style="width:110px;height:120px;display: block;margin-left: auto;margin-right: auto;" /></td></tr>
+<tr><td colspan="12"><img src="./immagine.bmp" style="width:220px;height:240px;margin-left:50%" /></td></tr>
 </table>
