@@ -16,5 +16,5 @@ i believe in future will not be only seed phrase system, we probably will have m
 I want to inspire the community to this change and create other opensource systems to convert secret key to other secret seed.
 
 ==Example==
-stick stool kitchen knee fade butter ten vapor various once mesh menu
-<img src="./immagine.bmp" style="width:50px;height:60px" />
+stick stool kitchen knee fade butter ten vapor various once mesh menu <br>
+<img src="./immagine.bmp" style="width:55px;height:60px" />
