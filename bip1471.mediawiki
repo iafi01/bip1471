@@ -17,6 +17,15 @@ I want to inspire the community to this change and create other opensource syste
 
 ==Example==
 <table>
-<tr><td>stick</td><td>stool</td><td>kitchen</td><td>knee</td><td>fade</td><td>butter</td><td>ten</td><td>vapor</td><td>various</td><td>once</td><td>mesh</td><td>menu </td></tr>
-<tr><td colspan="3"><img src="./immagine.bmp" style="width:220px;height:240px;" /></td></tr>
+<tr>
+<td>stick</td><td>stool</td><td>kitchen</td><td>knee</td><td>fade</td>
+<td>butter</td><td>ten</td><td>vapor</td><td>various</td><td>once</td><td>mesh</td><td>menu </td>
+</tr>
+
+<tr>
+<td colspan="3"><img src="./immagine.bmp" style="width:220px;height:240px;" /></td>
+<td colspan="9">You now have your image seed that can be stored where you want<br> 
+is not difficult at least write down on a paper and use that in addiction to seed phrase backup.
+</td>
+</tr>
 </table>
