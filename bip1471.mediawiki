@@ -17,4 +17,4 @@ I want to inspire the community to this change and create other opensource syste
 
 ==Example==
 stick stool kitchen knee fade butter ten vapor various once mesh menu <br>
-<img src="./immagine.bmp" style="width:110px;height:120px;display: block;margin-left: auto;margin-right: auto;width: 50%;" />
+<img src="./immagine.bmp" style="width:110px;height:120px;display: block;margin-left: auto;margin-right: auto;" />
