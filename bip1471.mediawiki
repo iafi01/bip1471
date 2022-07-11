@@ -1,8 +1,16 @@
 
 <h2>The first graphic seed phrase converter system</h2><br>
+==Introduction==
+The system is written in c++ based on bip39, it has 12 words that give you access to the private key.<br>
+So we have 12 words of a 2048 total words file equal to a mathematical rapresentation of 2^132<br>
+
 ==How it works?==
-The system written in c++ refers <br>
-at bip39 where, 12 words give<br>
-you access to the private key. <br>
-12 words of a 2048 total words file where <br>
-we have a mathematical rapresentation of 2^132<br>
+Each word has an index associated, the index is convert to bits (0 - 1) each one of that is a square white or black in a chessboard.
+The chessboard is a bmp image file that you can print or copy on a paper.
+
+==Why that==
+We have different possibility to bury a secret like private key, i want to demonstrate that seed phrase word is not the only system we can use.
+i believe in future will not be only seed phrase system, we probably will have more types of seed like images.
+
+==Hopes==
+I want to inspire the community to this change and create other opensource systems to convert secret key to other secret seed.
