@@ -1,4 +1,8 @@
-# bip1471
 
 <h2>The first graphic seed phrase converter system</h2><br>
 ==How it works?==
+The system written in c++ refers <br>
+at bip39 where, 12 words give<br>
+you access to the private key. <br>
+12 words of a 2048 total words file where <br>
+we have a mathematical rapresentation of 2^132<br>
