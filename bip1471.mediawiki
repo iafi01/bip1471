@@ -14,3 +14,6 @@ i believe in future will not be only seed phrase system, we probably will have m
 
 ==Hopes==
 I want to inspire the community to this change and create other opensource systems to convert secret key to other secret seed.
+
+==Example==
+stick stool kitchen knee fade butter ten vapor various once mesh menu
